@@ -1,0 +1,17 @@
+   7 Principles of Testing
+
+
+1.Testing shows presence of defects
+2.Exhaustive testing is impossible
+3.Early testing
+4.Defect clustering
+5.Pesticide paradox
+6.Testing is context depending
+7.Absence of errors fallacy
+
+
+
+
+
+
+
