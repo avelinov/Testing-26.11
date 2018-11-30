@@ -1,0 +1,10 @@
+Git commands:
+
+git init - This creates a new subdirectory named .git that contains all of your necessary repository files — a Git repository skeleton. At this point, nothing in your project is tracked yet.
+git clone URLtoRepository - If you want to get a copy of an existing Git repository — for example, a project you’d like to contribute to
+git clone URLtoRepository localFolder - If you want to clone the repository into a directory named something different than default
+git pull - automatically fetch and then merge that remote branch into your current branch
+git push origin master - When you have your project at a point that you want to share, you have to push it upstream
+git branch nameOfTheBranch – creates new branch
+git checkout nameOfTheBranch - switches to the branch
+git reset --hard - removes staged and working directory changes
