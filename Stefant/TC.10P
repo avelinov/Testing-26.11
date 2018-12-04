@@ -1,0 +1,13 @@
+Test Case ID	TC.10P
+Name	[Transactions] Payment methods
+Priority	1
+Description	Add payment methods - cards
+Prerequisites	"Create a dropdown list with predefined options of choosing a card
+already registered from the user"
+Input Data	http://www.epay.bg
+Date Created	04.12.2018
+Author	Stefan Tanev
+Test Steps	
+Go to menu and press"settings"	Setting menu opens
+Press " Add card"	Fill for card number,date anc CCV code appears
+Press" Confirm (Visa or Mastercard) card	The new card is confirmed and added to the list
