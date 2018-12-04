@@ -1,0 +1,12 @@
+Test Case ID	TC.6P
+Name	[Login] Successfull login 
+Priority	1
+Description	Succsses to login
+Prerequisites	After login page is redirected to the Homepage
+Input Data	http://www.epay.bg
+Date Created	04.12.2018
+Author	Stefan Tanev
+Test Steps	
+Open site  http://www.epay.bg	Page is loaded
+Fill username and password	Username and password are correct
+Press "Login" button	Redirected to Homepage
