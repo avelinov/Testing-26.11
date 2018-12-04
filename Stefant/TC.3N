@@ -1,0 +1,14 @@
+Test Case ID	TC.3N
+Name	[Login] Login details
+Priority	1
+Description	"For valid credentials the user can use username: testuser and password:
+TestUser1"
+Prerequisites	Load the page,login appears first 
+Input Data	http://www.epay.bg
+Date Created	04.12.2018
+Author	Stefan Tanev
+Test Steps	
+Open site  http://www.epay.bg	Page is loaded
+Fill correct username with wrong password	Login failed - wrong password massage appears
+Fill wrong username with correct password	Login failed - wrong username massage appears
+Fill not existing username	Login failed - Username does not exist massage appears
