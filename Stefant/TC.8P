@@ -1,0 +1,11 @@
+Test Case ID	TC.8P
+Name	[Transactions] Create transaction 
+Priority	1
+Description	Creating succssfull transaction
+Prerequisites	After payment. "Transaction is completed" green colour massage appear
+Input Data	http://www.epay.bg
+Date Created	04.12.2018
+Author	Stefan Tanev
+Test Steps	
+Press " pay Electricity bill"	Confirmation window appears with "ok" and "cancel" buttons
+Press "Confirm"	Transaction is completed with green colour appears
