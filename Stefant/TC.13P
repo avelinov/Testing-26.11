@@ -1,0 +1,12 @@
+Test Case ID	TC.13P
+Name	[Logout] Successfull logout
+Priority	1
+Description	Cancel the logout
+Prerequisites	"When the user clicks Cancel to reject the logout he is landed back to the
+last visited page"
+Input Data	http://www.epay.bg
+Date Created	04.12.2018
+Author	Stefan Tanev
+Test Steps	
+Press " Logout" button	"Confrim" logout or "cancel" buttons appears
+Press "cancel logout" button	User is landed back to the last visited page
