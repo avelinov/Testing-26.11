@@ -1,0 +1,12 @@
+Test Case ID	TC.9P
+Name	[Transactions] Cancel transaction 
+Priority	1
+Description	Creating succssfull transaction
+Prerequisites	"When Cancel button is clicked the confirmation window is closed and the
+user is redirected to the Homepage"
+Input Data	http://www.epay.bg
+Date Created	04.12.2018
+Author	Stefan Tanev
+Test Steps	
+Press " pay Electricity bill"	Confirmation window appears with "ok" and "cancel" buttons
+User is pressing "cancel" button	Confirmation window is closed and user is redirected to homepage
