@@ -1,0 +1,13 @@
+Test Case ID	TC.5P
+Name	[Login] Login wrong details
+Priority	1
+Description	Fill empty credentials
+Prerequisites	"When a user provides blank password or username a red colored message
+"
+Input Data	http://www.epay.bg
+Date Created	04.12.2018
+Author	Stefan Tanev
+Test Steps	
+Open site  http://www.epay.bg	Page is loaded
+Fill username but empty password	”A blank password  is provided!” massage appears in red colour
+Fill empty username but password	”A blank username  is provided!” massage appears in red colour
