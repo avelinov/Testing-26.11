@@ -1,0 +1,15 @@
+Test Case ID	TC.10N
+Name	[Transactions] Payment methods
+Priority	1
+Description	Add payment methods - cards
+Prerequisites	"Create a dropdown list with predefined options of choosing a card
+already registered from the user"
+Input Data	http://www.epay.bg
+Date Created	04.12.2018
+Author	Stefan Tanev
+Test Steps	
+Go to menu and press"settings"	Setting menu opens
+Press " Add card"	Fill for card number,date anc CCV code appears
+Fill wrong card number and correct exp.date	Wrong card number massage appears
+Fill correct card number and wrong exp.date	Wrong exp.date massage appears
+Fill correct card number and exp.date but leave empty CCV code	Not all fields are filled massage appears
