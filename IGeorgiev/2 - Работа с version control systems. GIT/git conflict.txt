@@ -1,0 +1,20 @@
+1. Open cmd (shift + F10) from the folder where you want
+2. mkdir git-conflict
+Създаване на папка
+3. cd git-conflict
+Навигиране до папката
+4. git init
+Създаване на git repository
+5. Създаване на test.txt файл в папката с текст на първи ред abc
+6. git add .
+7. git commit -m 'initial commit'
+8. git checkout -b new_branch
+9. Отваряне на файла и промяна на текста на adc
+10. git add .
+11. git commit -m 'first commit on new_branch'
+12. git checkout master
+13. Отваряне на файла и промяна на текста на aec
+14. git commit -am 'second commit on master'
+15. git merge new_branch
+16. ръчно решаване на конфликта
+17. git commit -m "conflict resolved"
