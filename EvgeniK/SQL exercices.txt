@@ -1,0 +1,15 @@
+1.
+SELECT * FROM Customers;
+
+2.
+SELECT ContactName FROM Customers;
+
+3.
+SELECT DISTINCT City, Country FROM Customers;
+
+4.
+INSERT INTO Customers (CustomerName, City, Country) VALUES ('Ivan Ivanov', 'Sofia', 'Bulgaria');
+INSERT INTO Customers (CustomerName, City, Country) VALUES ('Petar Petrov', 'Plovdiv', 'Bulgaria');
+INSERT INTO Customers (CustomerName, City, Country) VALUES ('Georgi Georgiev', 'Varna', 'Bulgaria');
+
+5.

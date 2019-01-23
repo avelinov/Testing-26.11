@@ -1,0 +1,6 @@
+test registration
+test mail subscription
+test sign in
+test forgot password
+test log out
+test user control pannel
