@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+table {
+	border: rgba(39, 99, 196, 0.6) solid 10px;
+	border-collapse: separate;
+}
+
+th {
+	font-style: oblique;
+	border: rgba(39, 99, 196, 0.6) solid 2px;
+	border-collapse: separate;
+	background-color: rgba(39, 99, 196, 0.5);
+	padding: 15px;
+	text-align: center;
+}
+
+td:hover {
+	background-color: rgba(39, 99, 196, 0.3);
+}
+
+td {
+	border: rgba(39, 99, 196, 0.6) solid 2px;
+	border-collapse: separate;
+	background-color: rgba(39, 141, 196, 0.2);
+	padding: 15px;
+	text-align: center;
+}
+
+#googleLink {
+	background-color: rgba(39, 99, 196, 0.7);
+	color: white;
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+#googleLink:hover {
+	background-color: rgba(39, 99, 196, 0.8);
+}
+
+p {
+	text-align: justify;
+	text-shadow: 2px 1px rgba(39, 141, 196, 0.2);
+}
+
+form {
+	background-color: rgba(39, 99, 196, 0.6);
+	display: table;
+}
+
+input {
+	display: table-cell;
+}
