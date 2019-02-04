@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header .container img {
+    width: 100%;
+}
+
+.centered {
+    position: absolute;
+    top: 140px;
+    left: 120px;
+    transform: translate(-10%, -50%);
+    font-size: 70px;
+    font-weight: bold;
+    color: antiquewhite;
+    opacity: 0.6;
+}
+
+h1 {
+    text-shadow: 3px 3px black;
+}
+
+.bottom-left ul li a {
+    text-decoration: none;
+    padding-left: 50px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 2px 2px black;
+}
+
+.bottom-left ul li {
+    display: inline-block;
+}
+
+.bottom-left {
+    position: absolute;
+    top: 250px;
+}
+
+main .container {
+    margin-top: -4px;
+    padding-top: -200px;
+}
+
+main .container img {
+    opacity: 0.5;
+}
+
+.bottom-left2 {
+    position: relative;
+    bottom: 300px;
+    left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px azure;
+}
+
+.top-right table {
+    border: 2px solid black;
+    font-size: 30px;
+}
+
+.top-right table th {
+    border: 2px solid black;
+}
+
+.top-right table td {
+    border: 2px solid black;
+}
+
+.top-right {
+    position: absolute;
+    top: 550px;
+    padding-left: 900px;
+}
+
+.top-left {
+    position: absolute;
+    top: 550px;
+    padding-left: 50px;
+}
+
+.bottom-right {
+    position: relative;
+    bottom: 250px;
+    left: 980px;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(11, 12, 12);
+    color: rgb(16, 230, 26);
+}
+
+#second {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.centered2 {
+    position: absolute;
+    top: 1000px;
+    text-align: center;
+    text-shadow: 1px 1px rgb(39, 190, 97);
+   
+}
